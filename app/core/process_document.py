@@ -3,10 +3,10 @@ import os, pymupdf
 from google import genai
 
 # Local imports
-from core.logger import setup_logger
-from db.manager import insert_document_chunks
-from core.utils import make_chunks, get_embeddings
-from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
+from app.core.logger import setup_logger
+from app.db.manager import insert_document_chunks
+from app.core.utils import make_chunks, get_embeddings
+from app.config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
 
 # Initialization
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
@@ -34,6 +34,8 @@ class ProcessDocument:
             insert_document_chunks(str(session_id), str(self.doc_path), chunks, embeddings)
         except Exception as e:
             logger.debug(f"Error while inserting embeddings for [{self.doc_name}] in DB: {e}")
+        
+        os.remove(doc_path) # remove uploaded file
 
     def get_text_from_doc(self, doc_path: str) -> str:
         if not os.path.exists(doc_path):

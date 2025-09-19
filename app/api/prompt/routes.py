@@ -5,10 +5,10 @@ from pathlib import Path
 from pydantic import BaseModel
 
 # Local imports
-from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
-from core.process_prompt import ProcessPrompt
-from core.logger import setup_logger
-from db.manager import session_exists
+from app.config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
+from app.core.process_prompt import ProcessPrompt
+from app.core.logger import setup_logger
+from app.db.manager import session_exists
 
 # Initialization
 router = APIRouter()

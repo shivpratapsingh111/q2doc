@@ -4,11 +4,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 # Local imports
-from api.upload import routes as upload
-from api.prompt import routes as prompt
-from db.manager import init_db, reset_db, create_documents_table
-from core.logger import setup_logger
-from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
+from app.api.upload import routes as upload
+from app.api.prompt import routes as prompt
+from app.db.manager import init_db, create_documents_table
+from app.core.logger import setup_logger
+from app.config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
 
 
 # ---------------------
@@ -58,7 +58,3 @@ app.include_router(prompt.router)
 @app.get("/")
 async def main():
 	return {"status": "running"}
-
-if __name__ == "__main__":
-	import uvicorn
-	uvicorn.run(app=app, host="0.0.0.0", port=8000)

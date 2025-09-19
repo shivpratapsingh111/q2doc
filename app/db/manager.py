@@ -3,8 +3,8 @@ import psycopg
 from pgvector.psycopg import register_vector
 
 # Local imports
-from core.logger import setup_logger
-from config.config import (
+from app.core.logger import setup_logger
+from app.config.config import (
     DB_HOST,
     DB_NAME,
     DB_USER,

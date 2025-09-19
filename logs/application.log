@@ -2003,3 +2003,54 @@ Kaelin is a common fantasy character name, and "Stormrider" suggests a connectio
 2025-09-19 16:30:16,442 - DEBUG - core.process_prompt - process_prompt.py:108 - Results from semantic search for prompt ["what is the secret game key?"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 8, 'chunk': 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'distance': 0.2163332725067839}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 9, 'chunk': 'Player 2:', 'distance': 0.3438238529686507}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 10, 'chunk': 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', 'distance': 0.3817236239231644}]
 2025-09-19 16:30:18,879 - INFO - core.process_prompt - process_prompt.py:118 - LLM's answer for ["what is the secret game key?"]: bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’ Source file: uploads/1.pdf.
 2025-09-19 16:30:29,321 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 19:34:14,843 - INFO - app.api.app - app.py:23 - Initializing database
+2025-09-19 19:34:14,862 - INFO - app.db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 19:34:14,873 - INFO - app.db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 19:34:14,875 - INFO - app.api.app - app.py:27 - Database initialized
+2025-09-19 19:34:26,745 - INFO - app.core.process_prompt - process_prompt.py:98 - Processing provided prompt ["hello"] for session_id [9237cae0-0886-42d5-a2dd-a34b51f4e95e]
+2025-09-19 19:35:27,022 - INFO - app.api.app - app.py:23 - Initializing database
+2025-09-19 19:35:27,049 - INFO - app.db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 19:35:27,082 - INFO - app.db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 19:35:27,083 - INFO - app.api.app - app.py:27 - Database initialized
+2025-09-19 19:35:27,090 - WARNING - app.api.app - app.py:34 - Application Shutting down
+2025-09-19 19:36:23,555 - INFO - app.api.app - app.py:23 - Initializing database
+2025-09-19 19:36:23,576 - INFO - app.db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 19:36:23,586 - INFO - app.db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 19:36:23,586 - INFO - app.api.app - app.py:27 - Database initialized
+2025-09-19 19:36:44,234 - INFO - app.api.upload.routes - routes.py:41 - Uploaded file saved in uploads/1.pdf
+2025-09-19 19:36:44,237 - INFO - app.core.process_document - process_document.py:23 - Processing provided document [1.pdf], Session ID [f68f7165-1002-4fb1-ab06-45c920e9a71b]
+2025-09-19 19:36:44,278 - INFO - app.core.process_document - process_document.py:54 - Number of pages in document [1.pdf], 2
+2025-09-19 19:36:44,281 - INFO - app.core.utils - utils.py:48 - Total chunks formed: 18
+2025-09-19 19:36:44,281 - INFO - app.core.utils - utils.py:49 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 19:36:44,282 - DEBUG - app.core.process_document - process_document.py:29 - Converting text to embeddings for [1.pdf]
+2025-09-19 19:37:26,230 - INFO - app.api.app - app.py:23 - Initializing database
+2025-09-19 19:37:26,246 - INFO - app.db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 19:37:26,278 - INFO - app.db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 19:37:26,278 - INFO - app.api.app - app.py:27 - Database initialized
+2025-09-19 19:37:34,041 - INFO - app.api.upload.routes - routes.py:41 - Uploaded file saved in uploads/1.pdf
+2025-09-19 19:37:34,048 - INFO - app.core.process_document - process_document.py:23 - Processing provided document [1.pdf], Session ID [31b1cc58-774a-4a76-8221-d409fe5572ce]
+2025-09-19 19:37:34,068 - INFO - app.core.process_document - process_document.py:54 - Number of pages in document [1.pdf], 2
+2025-09-19 19:37:34,071 - INFO - app.core.utils - utils.py:48 - Total chunks formed: 18
+2025-09-19 19:37:34,073 - INFO - app.core.utils - utils.py:49 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 19:37:34,074 - DEBUG - app.core.process_document - process_document.py:29 - Converting text to embeddings for [1.pdf]
+2025-09-19 19:38:46,709 - DEBUG - app.core.process_document - process_document.py:33 - Inserting embeddings for [1.pdf] in DB
+2025-09-19 19:38:46,917 - INFO - app.db.manager - manager.py:104 - 18 chunks inserted, Name: uploads/1.pdf, ID: f68f7165-1002-4fb1-ab06-45c920e9a71b
+2025-09-19 19:39:36,583 - DEBUG - app.core.process_document - process_document.py:33 - Inserting embeddings for [1.pdf] in DB
+2025-09-19 19:39:36,763 - INFO - app.db.manager - manager.py:104 - 18 chunks inserted, Name: uploads/1.pdf, ID: 31b1cc58-774a-4a76-8221-d409fe5572ce
+2025-09-19 19:39:36,763 - DEBUG - app.core.process_document - process_document.py:37 - Error while inserting embeddings for [1.pdf] in DB: [Errno 2] No such file or directory: 'uploads/1.pdf'
+2025-09-19 19:43:31,093 - INFO - app.api.app - app.py:23 - Initializing database
+2025-09-19 19:43:31,107 - INFO - app.db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 19:43:31,136 - INFO - app.db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 19:43:31,137 - INFO - app.api.app - app.py:27 - Database initialized
+2025-09-19 19:43:50,509 - INFO - app.api.upload.routes - routes.py:41 - Uploaded file saved in uploads/1.pdf
+2025-09-19 19:43:50,517 - INFO - app.core.process_document - process_document.py:23 - Processing provided document [1.pdf], Session ID [fa0f6954-4328-492c-8041-037eeee002de]
+2025-09-19 19:43:50,545 - INFO - app.core.process_document - process_document.py:55 - Number of pages in document [1.pdf], 2
+2025-09-19 19:43:50,553 - INFO - app.core.utils - utils.py:48 - Total chunks formed: 18
+2025-09-19 19:43:50,553 - INFO - app.core.utils - utils.py:49 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 19:43:50,554 - DEBUG - app.core.process_document - process_document.py:29 - Converting text to embeddings for [1.pdf]

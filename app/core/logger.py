@@ -2,7 +2,7 @@
 import logging, os
 
 # Local imports
-from config.config import LOGS_DIR
+from app.config.config import LOGS_DIR
 
 # -- Colored Formatter for console --
 class ColorFormatter(logging.Formatter):

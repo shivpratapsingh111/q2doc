@@ -4,8 +4,8 @@ from google import genai
 from google.genai import types
 
 # Local imports
-from core.logger import setup_logger
-from config.config import (
+from app.core.logger import setup_logger
+from app.config.config import (
     LOG_LEVEL_DEBUG,
     APPLICATION_LOG_FILE,
     GEMINI_API_KEY,

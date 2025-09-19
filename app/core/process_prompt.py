@@ -4,10 +4,10 @@ from google.genai import types
 from pydantic import BaseModel
 
 # Local imports
-from core.logger import setup_logger
-from core.utils import get_embeddings
-from db.manager import semantic_search_by_session
-from config.config import (
+from app.core.logger import setup_logger
+from app.core.utils import get_embeddings
+from app.db.manager import semantic_search_by_session
+from app.config.config import (
     LOG_LEVEL_DEBUG,
     APPLICATION_LOG_FILE,
     GEMINI_API_KEY,
@@ -76,10 +76,10 @@ class ProcessPrompt:
 from google import genai
 
 # Local imports
-from core.logger import setup_logger
-from core.utils import get_embeddings
-from db.manager import semantic_search_by_session
-from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
+from app.core.logger import setup_logger
+from app.core.utils import get_embeddings
+from app.db.manager import semantic_search_by_session
+from app.config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
 
 # Initialization
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)

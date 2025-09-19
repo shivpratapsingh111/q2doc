@@ -4,9 +4,9 @@ from fastapi import APIRouter, UploadFile, BackgroundTasks
 from pathlib import Path
 
 # Local imports
-from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, MAX_FILE_SIZE
-from core.logger import setup_logger
-from core.process_document import ProcessDocument
+from app.config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, MAX_FILE_SIZE
+from app.core.logger import setup_logger
+from app.core.process_document import ProcessDocument
 
 # Initialization
 router = APIRouter()

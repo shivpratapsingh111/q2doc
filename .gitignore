@@ -6,3 +6,5 @@ TODO
 /app/uploads
 *.pdf
 /frontend/node_modules
+app/logs
+*.log
