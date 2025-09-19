@@ -23,7 +23,7 @@ class ProcessDocument:
         logger.info(f"Processing provided document [{self.doc_name}], Session ID [{session_id}]")
         text = self.get_text_from_doc(doc_path) # extract text from document
         chunks = make_chunks(
-            text=text, size=100, overlap=20
+            text=text, size=500, overlap=100
         )  # convert text string to small chunks
 
         logger.debug(f"Converting text to embeddings for [{self.doc_name}]")

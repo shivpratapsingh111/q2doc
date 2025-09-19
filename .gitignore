@@ -1,10 +1,8 @@
 __pycache__
-file/res.pdf
-/notes
-.env
 TODO
-/app/uploads
 *.pdf
-/frontend/node_modules
-app/logs
 *.log
+.env
+/notes
+/frontend/node_modules
+
