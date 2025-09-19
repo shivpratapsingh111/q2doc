@@ -15,7 +15,6 @@ logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
 # ---
 
 def get_connection(dbname=DB_NAME):
-    """Return a new psycopg2 connection to a given database"""
     conn = psycopg2.connect(
         dbname=dbname,
         user=DB_USER,
@@ -63,11 +62,12 @@ def create_documents_table(embedding_dim: int = 3072):
     conn.close()
 
 def reset_db():
-    """Delete all rows from the documents table"""
+    """Reset db, delete everything"""
     conn = get_connection(DB_NAME)
     cur = conn.cursor()
+    logger.warning("ResettingdDatabase.")
     cur.execute("DELETE FROM documents;")
-    logger.info("All documents deleted.")
+    logger.info("Resetting database completed.")
     cur.close()
     conn.close()
 
@@ -76,7 +76,6 @@ def reset_db():
 # ---
 
 def insert_document_chunks(doc_path: str, chunks: List[str], embeddings: List[List[float]]):
-    """Bulk insert chunks and embeddings into the documents table"""
     conn = get_connection(DB_NAME)
     cur = conn.cursor()
     values = [(doc_path, idx, chunk, emb) for idx, (chunk, emb) in enumerate(zip(chunks, embeddings))]

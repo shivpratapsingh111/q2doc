@@ -1,2 +1,9 @@
-Use DB
-Implement Index
+NOW: START WITH PROMPT
+
+Add multiple file upload support
+
+Add better file handling
+	- Add file type checking
+	- Make use of temp file OR Remove files after the task is done
+
+Add pydantic models, and validation

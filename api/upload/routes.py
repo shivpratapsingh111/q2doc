@@ -1,0 +1,40 @@
+# External imports
+import os, pymupdf
+from fastapi import APIRouter, UploadFile, BackgroundTasks
+from pathlib import Path
+
+# Local imports
+from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
+from core.logger import setup_logger
+from core.process_document import ProcessDocument
+
+# Initialization
+router = APIRouter()
+pd = ProcessDocument()
+logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
+UPLOAD_DIR = Path(UPLOAD_DIR)
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+@router.put("/upload")
+async def process_file(file: UploadFile, background_tasks: BackgroundTasks):
+    
+    file_path = UPLOAD_DIR / file.filename
+    try:
+        contents = await file.read()
+        size = len(contents)
+        await file.seek(0)
+        try: 
+            pymupdf.open(stream=contents, filetype="pdf")
+        except Exception as e:
+            logger.error(f"Invalid PDF file provided, Name: {file.filename}, Size: {size} bytes, Error: {e}")
+            return {"success": False, "message": "Invalid PDF provided", "data": {"filename": file.filename, "size": size, "exception": str(e)}}
+        
+        with open(file_path, "wb") as f:
+            f.write(contents)
+        logger.info(f"Uploaded file saved in {file_path}")
+    except Exception as e:
+        logger.error("Error while saving the provided file")
+    background_tasks.add_task(pd.process, file_path)
+        
+    return {"success": True, "message": "File uploaded successfully", "data": {"filename": file.filename, "size": size}}
+

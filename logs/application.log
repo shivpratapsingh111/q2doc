@@ -114,3 +114,394 @@ LINE 1: INSERT INTO documents (doc_path, chunk_index, content, embed...
                     ^
 
 2025-09-18 23:15:18,064 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:04:09,116 - INFO - __main__ - app.py:23 - Initializing database
+2025-09-19 12:04:09,133 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:04:09,199 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:04:09,199 - INFO - __main__ - app.py:27 - Database initialized
+2025-09-19 12:05:21,947 - WARNING - __main__ - app.py:34 - Application Shutting down
+2025-09-19 12:05:25,741 - INFO - __main__ - app.py:23 - Initializing database
+2025-09-19 12:05:25,751 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:05:25,757 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:05:25,758 - INFO - __main__ - app.py:27 - Database initialized
+2025-09-19 12:07:01,181 - INFO - api.upload.routes - routes.py:24 - Uploaded file saved in uploads/cero.txt
+2025-09-19 12:10:20,417 - WARNING - __main__ - app.py:34 - Application Shutting down
+2025-09-19 12:10:22,595 - INFO - __main__ - app.py:23 - Initializing database
+2025-09-19 12:10:22,604 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:10:22,611 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:10:22,611 - INFO - __main__ - app.py:27 - Database initialized
+2025-09-19 12:10:31,096 - INFO - api.upload.routes - routes.py:28 - Uploaded file saved in uploads/cero.txt
+2025-09-19 12:15:14,559 - WARNING - __main__ - app.py:34 - Application Shutting down
+2025-09-19 12:15:31,423 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:15:31,429 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:15:31,429 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:16:46,558 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:16:46,564 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:16:46,564 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:16:46,608 - INFO - __main__ - app.py:23 - Initializing database
+2025-09-19 12:16:46,616 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:16:46,623 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:16:46,624 - INFO - __main__ - app.py:27 - Database initialized
+2025-09-19 12:17:07,200 - INFO - api.upload.routes - routes.py:28 - Uploaded file saved in uploads/cero.txt
+2025-09-19 12:18:00,108 - WARNING - __main__ - app.py:34 - Application Shutting down
+2025-09-19 12:18:04,733 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:18:04,739 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:18:04,739 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:18:04,782 - INFO - __main__ - app.py:23 - Initializing database
+2025-09-19 12:18:04,790 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:18:04,800 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:18:04,800 - INFO - __main__ - app.py:27 - Database initialized
+2025-09-19 12:18:24,007 - WARNING - __main__ - app.py:34 - Application Shutting down
+2025-09-19 12:18:28,800 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:18:28,807 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:18:28,807 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:19:04,962 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:19:04,967 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:19:04,968 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:19:18,107 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:19:18,112 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:19:18,113 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:19:18,158 - INFO - app - app.py:23 - Initializing database
+2025-09-19 12:19:18,166 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:19:18,176 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:19:18,176 - INFO - app - app.py:27 - Database initialized
+2025-09-19 12:19:33,751 - WARNING - app - app.py:34 - Application Shutting down
+2025-09-19 12:20:20,133 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:20,139 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:20,139 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:20:20,148 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 12:20:20,157 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:20,166 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:20,166 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 12:20:29,011 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 12:20:31,498 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:31,503 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:31,503 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:20:31,512 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 12:20:31,519 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:31,530 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:31,531 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 12:20:37,662 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 12:20:41,011 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:41,018 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:41,018 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:20:41,028 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:20:41,036 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:41,044 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:41,046 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:20:43,982 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:43,991 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:43,995 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:20:44,008 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 12:20:44,017 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:44,028 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:44,028 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 12:20:48,076 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:48,085 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:48,088 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:20:48,098 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 12:20:48,110 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:20:48,121 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:20:48,121 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 12:21:00,531 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:21:00,537 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:21:00,538 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:21:00,545 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:21:00,551 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:21:00,562 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:21:00,562 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:21:36,275 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:21:41,500 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:21:41,506 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:21:41,506 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:21:41,517 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:21:41,525 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:21:41,534 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:21:41,538 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:21:59,881 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:22:05,342 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:22:05,348 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:22:05,348 - INFO - core.service - service.py:26 - Path provided files/1.pdf, Exititing
+2025-09-19 12:22:05,425 - INFO - __main__ - app.py:22 - Initializing database
+2025-09-19 12:22:05,431 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:22:05,438 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:22:05,438 - INFO - __main__ - app.py:26 - Database initialized
+2025-09-19 12:22:07,151 - WARNING - __main__ - app.py:33 - Application Shutting down
+2025-09-19 12:22:29,830 - INFO - core.service - service.py:24 - Path provided files/1.pdf, Exititing
+2025-09-19 12:22:29,896 - INFO - __main__ - app.py:22 - Initializing database
+2025-09-19 12:22:29,905 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:22:29,915 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:22:29,915 - INFO - __main__ - app.py:26 - Database initialized
+2025-09-19 12:22:53,034 - WARNING - __main__ - app.py:33 - Application Shutting down
+2025-09-19 12:22:59,091 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:22:59,101 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:22:59,107 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:22:59,107 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:23:03,891 - INFO - api.upload.routes - routes.py:28 - Uploaded file saved in uploads/cero.txt
+2025-09-19 12:23:03,901 - INFO - core.service - service.py:24 - Path provided uploads/cero.txt, Exititing
+2025-09-19 12:23:23,285 - INFO - api.upload.routes - routes.py:28 - Uploaded file saved in uploads/cero.txt
+2025-09-19 12:23:23,287 - INFO - core.service - service.py:24 - Path provided uploads/cero.txt, Exititing
+2025-09-19 12:25:09,543 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:25:12,473 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:25:12,485 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:25:12,492 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:25:12,492 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:25:13,900 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:32:05,220 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:32:05,230 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:32:05,237 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:32:05,238 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:33:09,464 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:33:13,357 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:33:13,371 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:33:13,382 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:33:13,383 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:33:16,701 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:33:16,711 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:33:16,718 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:33:16,718 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:33:48,285 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:33:51,630 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:33:51,639 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:33:51,646 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:33:51,646 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:33:52,580 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/mermaid-flow-1x.pdf
+2025-09-19 12:33:52,589 - INFO - core.service - service.py:24 - Path provided uploads/mermaid-flow-1x.pdf, Exititing
+2025-09-19 12:34:08,747 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:38:02,391 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:38:02,400 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:38:02,407 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:38:02,407 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:38:06,523 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:38:10,469 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:38:10,479 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:38:10,487 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:38:10,488 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:38:13,071 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:38:13,081 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:38:13,088 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:38:13,088 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:38:24,436 - INFO - api.upload.routes - routes.py:35 - Uploaded file saved in uploads/mermaid-flow-1x.pdf
+2025-09-19 12:38:24,452 - INFO - core.service - service.py:26 - Processing provided document mermaid-flow-1x.pdf
+2025-09-19 12:38:51,898 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:38:54,801 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:38:54,810 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:38:54,817 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:38:54,817 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:38:57,689 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:38:57,697 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:38:57,703 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:38:57,704 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:00,358 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:00,368 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:00,374 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:00,375 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:07,713 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:39:10,401 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:10,409 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:10,416 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:10,416 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:13,153 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:13,164 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:13,174 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:13,174 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:23,133 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:23,142 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:23,148 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:23,149 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:25,606 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:25,615 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:25,621 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:25,621 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:27,959 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:27,968 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:27,974 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:27,974 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:30,366 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:30,377 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:30,388 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:30,388 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:33,014 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:33,024 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:33,031 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:33,032 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:35,526 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:35,535 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:35,541 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:35,541 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:38,243 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:39:38,253 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:39:38,261 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:39:38,261 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:39:40,930 - ERROR - api.upload.routes - routes.py:29 - Invalid PDF file provided uploads/cero.txt
+2025-09-19 12:40:00,876 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:03,659 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:03,668 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:03,674 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:03,674 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:05,885 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:08,569 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:08,579 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:08,585 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:08,586 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:11,326 - ERROR - api.upload.routes - routes.py:29 - Invalid PDF file provided cero.txt
+2025-09-19 12:40:29,484 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:32,395 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:32,406 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:32,413 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:32,414 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:34,826 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:37,780 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:37,789 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:37,795 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:37,796 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:37,998 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:40,445 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:40,454 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:40,463 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:40,463 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:46,898 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:40:49,807 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:49,815 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:49,823 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:49,823 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:53,062 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:40:53,072 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:40:53,081 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:40:53,082 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:40:54,629 - ERROR - api.upload.routes - routes.py:29 - Invalid PDF file provided, Name: cero.txt, Size: 42, Error: Failed to open stream
+2025-09-19 12:41:06,445 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:41:09,590 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:41:09,599 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:41:09,606 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:41:09,606 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:41:15,191 - ERROR - api.upload.routes - routes.py:29 - Invalid PDF file provided, Name: cero.txt, Size: 42 bytes, Error: Failed to open stream
+2025-09-19 12:41:26,677 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:41:30,378 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:41:30,389 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:41:30,399 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:41:30,400 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:41:31,105 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:41:33,848 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:41:33,857 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:41:33,863 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:41:33,864 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:43:28,499 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 12:43:28,508 - INFO - core.service - service.py:26 - Processing provided document 1.pdf
+2025-09-19 12:43:28,533 - INFO - core.service - service.py:89 - Number of pages in document [1.pdf], 2
+2025-09-19 12:43:28,534 - INFO - core.service - service.py:70 - Total chunks formed [1.pdf]: 18
+2025-09-19 12:43:28,535 - INFO - core.service - service.py:71 - Chunks [1.pdf]
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 12:43:31,069 - DEBUG - core.service - service.py:42 - Error while inserting embeddings for [1.pdf] in DB: can't adapt type 'PosixPath'
+2025-09-19 12:44:18,788 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:44:22,426 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:44:22,436 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:44:22,448 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:44:22,448 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:44:25,351 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:44:25,361 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:44:25,370 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:44:25,370 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:44:35,820 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:44:43,223 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:44:43,232 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:44:43,238 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:44:43,241 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:45:02,322 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:45:08,667 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:45:08,676 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:45:08,684 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:45:08,684 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:45:10,291 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:45:13,169 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:45:13,181 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:45:13,188 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:45:13,188 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:45:14,195 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:45:17,237 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:45:17,248 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:45:17,257 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:45:17,257 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:45:46,149 - ERROR - api.upload.routes - routes.py:35 - Error while saving the provided file
+2025-09-19 12:45:46,158 - INFO - core.service - service.py:26 - Processing provided document 1.pdf
+2025-09-19 12:45:46,158 - ERROR - core.service - service.py:77 - Provided document not found ./uploads/1.pdf
+2025-09-19 12:46:16,834 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:46:22,424 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:46:22,433 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:46:22,439 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:46:22,440 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:46:27,171 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:46:27,183 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:46:27,191 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:46:27,191 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:46:31,992 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:46:32,008 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:46:32,029 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:46:32,030 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:46:37,174 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:46:37,189 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:46:37,199 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:46:37,199 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:46:43,836 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:46:48,224 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:46:48,236 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:46:48,243 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:46:48,244 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:47:25,226 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:47:25,235 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:47:25,243 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:47:25,243 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:47:50,171 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:47:53,236 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:47:53,245 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:47:53,254 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:47:53,254 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:47:53,758 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:47:56,902 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:47:56,911 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:47:56,919 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:47:56,919 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:47:58,027 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 12:48:00,958 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:48:00,968 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:48:00,975 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:48:00,977 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:48:03,547 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:48:03,558 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:48:03,567 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:48:03,568 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:48:06,087 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 12:48:06,098 - INFO - db.manager - manager.py:42 - Database 'q2doc_vectordb' already exists.
+2025-09-19 12:48:06,106 - INFO - db.manager - manager.py:61 - Table 'documents' created or already exists.
+2025-09-19 12:48:06,107 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 12:48:12,277 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 12:48:12,293 - INFO - core.service - service.py:26 - Processing provided document 1.pdf
+2025-09-19 12:48:12,317 - INFO - core.service - service.py:89 - Number of pages in document [1.pdf], 2
+2025-09-19 12:48:12,319 - INFO - core.service - service.py:70 - Total chunks formed [1.pdf]: 18
+2025-09-19 12:48:12,320 - INFO - core.service - service.py:71 - Chunks [1.pdf]
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 12:48:16,071 - INFO - db.manager - manager.py:88 - 18 chunks inserted for uploads/1.pdf.
+2025-09-19 12:48:27,638 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:13:47,773 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:13:47,782 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:13:47,787 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:13:47,788 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:13:54,986 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 13:13:54,997 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 13:13:55,018 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 13:13:55,020 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 13:13:55,021 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 13:13:58,728 - DEBUG - core.process_document - process_document.py:40 - Error while inserting embeddings for [1.pdf] in DB: expected Connection or AsyncConnection, got connection
+2025-09-19 13:15:10,458 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:15:15,079 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:15:15,092 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:15:15,104 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:15:15,107 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:15:18,499 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:15:18,510 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:15:18,520 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:15:18,521 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:15:32,286 - WARNING - api.app - app.py:33 - Application Shutting down
