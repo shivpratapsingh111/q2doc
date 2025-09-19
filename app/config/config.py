@@ -7,6 +7,7 @@ LOGS_DIR = "./logs"
 LOG_LEVEL_DEBUG = True
 APPLICATION_LOG_FILE = "application.log"
 UPLOAD_DIR = "./uploads"
+MAX_FILE_SIZE = 1024 * 1024 * 1 # 1 Mega Byte
 
 # --- DB Config ---
 DB_USER = os.getenv("DB_USER")

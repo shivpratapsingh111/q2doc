@@ -10,7 +10,6 @@ from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
 
 # Initialization
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
-client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Logic
 class ProcessDocument:
@@ -21,15 +20,17 @@ class ProcessDocument:
     def process(self, doc_path: str, session_id: str) -> None:
         self.doc_path = doc_path
         self.doc_name = os.path.basename(doc_path)
-        logger.info(f"Processing provided document {self.doc_name}")
+        logger.info(f"Processing provided document [{self.doc_name}], Session ID [{session_id}]")
         text = self.get_text_from_doc(doc_path) # extract text from document
         chunks = make_chunks(
             text=text, size=100, overlap=20
         )  # convert text string to small chunks
 
+        logger.debug(f"Converting text to embeddings for [{self.doc_name}]")
         embeddings = get_embeddings(data_list=chunks, embedding_type="RETRIEVAL_DOCUMENT")
 
         try:
+            logger.debug(f"Inserting embeddings for [{self.doc_name}] in DB")
             insert_document_chunks(str(session_id), str(self.doc_path), chunks, embeddings)
         except Exception as e:
             logger.debug(f"Error while inserting embeddings for [{self.doc_name}] in DB: {e}")

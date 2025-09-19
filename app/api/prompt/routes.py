@@ -1,5 +1,5 @@
 # External imports
-import os
+import os, json
 from fastapi import APIRouter, BackgroundTasks
 from pathlib import Path
 from pydantic import BaseModel
@@ -29,6 +29,7 @@ async def process_prompt(data: Prompt, background_tasks: BackgroundTasks):
     # background_tasks.add_task(pp.process, data.session_id, data.prompt)
     if session_exists(session_id=data.session_id):
         answer = pp.process(data.session_id, data.prompt)
-        return {"success": True, "message": "Prompt processed successfully", "data": {"session_id": data.session_id, "answer": answer}}
+        answer = json.loads(answer)
+        return {"success": True, "message": "Prompt processed successfully", "data": {"session_id": data.session_id, "response": answer}}
     else:
         return {"success": False, "message": "Provided session_id does not exists in database", "data": {"session_id": data.session_id}}

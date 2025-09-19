@@ -1,6 +1,8 @@
 # External imports
 from google import genai
 from google.genai import types
+from pydantic import BaseModel
+
 # Local imports
 from core.logger import setup_logger
 from core.utils import get_embeddings
@@ -14,7 +16,9 @@ from config.config import (
 
 # Initialization
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = genai.Client(
+    api_key=GEMINI_API_KEY, http_options=types.HttpOptions(timeout=30_000)
+)
 
 
 # Logic
@@ -132,29 +136,51 @@ class ProcessPrompt:
 
         return "\n".join(formatted)
 
-    def ask_llm_with_context(self, user_prompt: str, context: list[dict]) -> str:
+    def ask_llm_with_context(self, user_prompt: str, context: list[dict]) -> dict:
         context = self.build_context_for_llm(context=context)
-        SYSTEM_INSTRUCTION = ("""
+
+        # Model to get answer in the same fomat
+        class Answer(BaseModel):
+            answer: str
+            source_file: list[str]
+
+        SYSTEM_INSTRUCTION = """
                     You are an assistant, who answers questions utilising the provided additional context.\n
+
                     Rules:\n
                     1. Answer using ONLY the provided document chunks. Quote directly.\n
-                    2. Always include reference after you complete your answer in this format: `Source file: {doc_path}.` If the sources are from same file do not repeat them reference.\n
-                    3. Never invent document content that isn't present in the chunks.
-            """)
-        PROMPT = ("""
+                    2. Never invent document content that isn't present in the chunks.
+                    3. Always include reference to source file along your answer. If the sources are from same file do not repeat them reference, `source_file` will be list containing `{doc_path}` of all the references used. Only return base name, not the full path.\n
+                    4. If you do not have the proper information to asnwer the asked question, deny with sarcastic and witty reply.
+                    5. Strictly follow the json, do not use anything extra delimeters (**```**) or anything to wrap the whole response in.  
+
+                    You will get:\n
+                    1. Addintional Context
+                    2. Question
+
+                    You will give:\n
+                    1. Answer
+                    2. Source File
+
+            """
+        PROMPT = (
+            """
             ADDITIONAL CONTEXT: 
             ```
             {context}
             ```
       
-            QUESTION: {question}
-        """).format(context=context, question=user_prompt)
+            QUESTION: `{question}`
+        """
+        ).format(context=context, question=user_prompt)
         response = client.models.generate_content(
             model=CHAT_MODEL,
             config=types.GenerateContentConfig(
-                system_instruction=str(SYSTEM_INSTRUCTION)
+                response_mime_type="application/json",
+                response_schema=Answer,
+                system_instruction=str(SYSTEM_INSTRUCTION),
             ),
             contents=PROMPT,
         )
-
+        logger.info(response.text)
         return response.text

@@ -1,95 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Q&A Assistant</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .chat-container {
-            height: calc(100vh - 250px);
-        }
-        .chat-messages {
-            height: calc(100% - 60px);
-            overflow-y: auto;
-        }
-        .typing-indicator:after {
-            content: '...';
-            animation: typing 1.5s steps(3, end) infinite;
-            display: inline-block;
-            width: 0;
-            overflow: hidden;
-            vertical-align: bottom;
-        }
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 1.2em; }
-        }
-    </style>
-</head>
-<body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8 max-w-4xl">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-gray-800 mb-2">Document Q&A Assistant</h1>
-            <p class="text-gray-600">Upload a PDF and ask questions about its content</p>
-        </header>
-
-        <!-- File Upload Section -->
-        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-xl font-semibold mb-4">Upload Document</h2>
-            <div class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-lg p-8 text-center" 
-                 id="drop-area">
-                <i class="fas fa-file-pdf text-4xl text-red-500 mb-3"></i>
-                <p class="text-gray-600 mb-4">Drag & drop your PDF here, or click to select</p>
-                <input type="file" id="file-input" accept=".pdf" class="hidden">
-                <button id="upload-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-6 rounded-lg transition duration-200">
-                    Select File
-                </button>
-                <p id="file-info" class="mt-3 text-sm text-gray-500"></p>
-                <div id="upload-progress" class="w-full bg-gray-200 rounded-full h-2.5 mt-4 hidden">
-                    <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Chat Interface -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <div class="p-4 border-b border-gray-200">
-                <h2 class="text-xl font-semibold">Chat</h2>
-                <p id="session-status" class="text-sm text-gray-500">Upload a document to start chatting</p>
-            </div>
-            
-            <div class="chat-container flex flex-col">
-                <div id="chat-messages" class="chat-messages p-4 space-y-4">
-                    <div class="flex justify-center items-center h-full">
-                        <p class="text-gray-400">Your conversation will appear here</p>
-                    </div>
-                </div>
-                
-                <div class="p-4 border-t border-gray-200">
-                    <form id="chat-form" class="flex space-x-2">
-                        <input 
-                            type="text" 
-                            id="user-input" 
-                            placeholder="Ask a question about the document..." 
-                            class="flex-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                            disabled
-                        >
-                        <button 
-                            type="submit" 
-                            id="send-btn"
-                            class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-6 rounded-lg transition duration-200 disabled:opacity-50"
-                            disabled
-                        >
-                            Send
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q2DOC: Ask questions to your document.</title>
+  </head>
+  <body class="bg-gray-50 dark:bg-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

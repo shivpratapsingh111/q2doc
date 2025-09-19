@@ -4,7 +4,7 @@ from fastapi import APIRouter, UploadFile, BackgroundTasks
 from pathlib import Path
 
 # Local imports
-from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
+from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, MAX_FILE_SIZE
 from core.logger import setup_logger
 from core.process_document import ProcessDocument
 
@@ -24,6 +24,11 @@ async def process_file(file: UploadFile, background_tasks: BackgroundTasks):
     try:
         contents = await file.read()
         size = len(contents)
+
+        if size > MAX_FILE_SIZE:
+            return {"success": False, "message": "Only files with size under 1 MB are supported", "data": {"filename": file.filename, "size": size}}
+
+
         await file.seek(0)
         try: 
             pymupdf.open(stream=contents, filetype="pdf")

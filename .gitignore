@@ -3,4 +3,6 @@ file/res.pdf
 /notes
 .env
 TODO
-/uploads
+/app/uploads
+*.pdf
+/frontend/node_modules

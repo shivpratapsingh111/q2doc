@@ -1,0 +1,5 @@
+- Components:
+  - FileUpload handles drag/drop and uses XMLHttpRequest for progress events
+  - Chat maintains a local message list and calls sendPrompt
+- API module in src/lib/api.js centralizes backend interaction and base URL
+- Styling uses Tailwind classes. Custom scrollbar in src/styles/index.css
