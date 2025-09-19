@@ -1,23 +1,34 @@
 # External imports
-import os, pymupdf
-from fastapi import APIRouter, UploadFile, BackgroundTasks
+import os
+from fastapi import APIRouter, BackgroundTasks
 from pathlib import Path
+from pydantic import BaseModel
 
 # Local imports
 from config.config import UPLOAD_DIR, LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE
+from core.process_prompt import ProcessPrompt
 from core.logger import setup_logger
-from core.process_document import ProcessDocument
+from db.manager import session_exists
 
 # Initialization
 router = APIRouter()
-pd = ProcessDocument()
+pp = ProcessPrompt()
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
 UPLOAD_DIR = Path(UPLOAD_DIR)
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-@router.put("/prompt")
-async def process_prompt(file: UploadFile, background_tasks: BackgroundTasks):
-    
+# Models
+class Prompt(BaseModel):
+    session_id: str
+    prompt: str
 
-    return {"success": True, "message": "File uploaded successfully"}
+# Logic
+@router.post("/prompt")
+async def process_prompt(data: Prompt, background_tasks: BackgroundTasks):
 
+    # background_tasks.add_task(pp.process, data.session_id, data.prompt)
+    if session_exists(session_id=data.session_id):
+        answer = pp.process(data.session_id, data.prompt)
+        return {"success": True, "message": "Prompt processed successfully", "data": {"session_id": data.session_id, "answer": answer}}
+    else:
+        return {"success": False, "message": "Provided session_id does not exists in database", "data": {"session_id": data.session_id}}

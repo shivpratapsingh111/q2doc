@@ -5,7 +5,8 @@ from contextlib import asynccontextmanager
 
 # Local imports
 from api.upload import routes as upload
-from db.manager import init_db, create_documents_table
+from api.prompt import routes as prompt
+from db.manager import init_db, reset_db, create_documents_table
 from core.logger import setup_logger
 from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
 
@@ -46,6 +47,7 @@ app.add_middleware(
 
 # Include routes
 app.include_router(upload.router)
+app.include_router(prompt.router)
 
 
 # ---------------------

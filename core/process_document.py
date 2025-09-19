@@ -18,7 +18,7 @@ class ProcessDocument:
         self.doc_path = None
         self.doc_name = None
 
-    def process(self, doc_path: str) -> None:
+    def process(self, doc_path: str, session_id: str) -> None:
         self.doc_path = doc_path
         self.doc_name = os.path.basename(doc_path)
         logger.info(f"Processing provided document {self.doc_name}")
@@ -26,16 +26,11 @@ class ProcessDocument:
         chunks = make_chunks(
             text=text, size=100, overlap=20
         )  # convert text string to small chunks
+
         embeddings = get_embeddings(data_list=chunks, embedding_type="RETRIEVAL_DOCUMENT")
-        
-        # write one time so don't have to make calls to DB
-        os.makedirs("embeddings", exist_ok=True)
-        with open("embeddings/embeddings_1_pdf.txt", "w") as f:
-            for em in embeddings:
-                f.write(",".join(map(str, em)) + "\n")
 
         try:
-            insert_document_chunks(str(self.doc_path), chunks, embeddings)
+            insert_document_chunks(str(session_id), str(self.doc_path), chunks, embeddings)
         except Exception as e:
             logger.debug(f"Error while inserting embeddings for [{self.doc_name}] in DB: {e}")
 

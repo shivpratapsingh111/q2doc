@@ -1,5 +1,5 @@
 # External imports
-import os, pymupdf
+import os, pymupdf, uuid
 from fastapi import APIRouter, UploadFile, BackgroundTasks
 from pathlib import Path
 
@@ -19,6 +19,8 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 async def process_file(file: UploadFile, background_tasks: BackgroundTasks):
     
     file_path = UPLOAD_DIR / file.filename
+    session_id = uuid.uuid4() # To map each document with the ID
+    
     try:
         contents = await file.read()
         size = len(contents)
@@ -32,9 +34,10 @@ async def process_file(file: UploadFile, background_tasks: BackgroundTasks):
         with open(file_path, "wb") as f:
             f.write(contents)
         logger.info(f"Uploaded file saved in {file_path}")
+
     except Exception as e:
         logger.error("Error while saving the provided file")
-    background_tasks.add_task(pd.process, file_path)
-        
-    return {"success": True, "message": "File uploaded successfully", "data": {"filename": file.filename, "size": size}}
+    
+    background_tasks.add_task(pd.process, file_path, str(session_id))
+    return {"success": True, "message": "File uploaded successfully", "data": {"session_id": str(session_id), "filename": file.filename, "size": size}}
 

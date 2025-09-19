@@ -505,3 +505,1501 @@ LINE 1: INSERT INTO documents (doc_path, chunk_index, content, embed...
 2025-09-19 13:15:18,520 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
 2025-09-19 13:15:18,521 - INFO - api.app - app.py:26 - Database initialized
 2025-09-19 13:15:32,286 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:48:55,023 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:48:55,033 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:48:55,039 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:48:55,040 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:49:15,752 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:49:18,407 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:49:18,417 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:49:18,424 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:49:18,425 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:49:43,249 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:49:46,002 - INFO - api.app - app.py:22 - Initializing database
+2025-09-19 13:49:46,015 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:49:46,026 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:49:46,029 - INFO - api.app - app.py:26 - Database initialized
+2025-09-19 13:49:48,243 - WARNING - api.app - app.py:33 - Application Shutting down
+2025-09-19 13:49:50,948 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:49:50,957 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:49:50,965 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:49:50,966 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:49:59,089 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:49:59,103 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:49:59,114 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:49:59,117 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:50:01,328 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:50:03,886 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:50:03,895 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:50:03,903 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:50:03,904 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:50:05,712 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:50:08,413 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:50:08,423 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:50:08,431 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:50:08,431 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:50:12,845 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:50:15,493 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:50:15,502 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:50:15,510 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:50:15,510 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:50:27,566 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:50:30,876 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:50:30,887 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:50:30,896 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:50:30,896 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:50:33,619 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:50:33,627 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:50:33,636 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:50:33,637 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:51:45,449 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:51:48,519 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:51:48,531 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:51:48,539 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:51:48,539 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:52:30,566 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:52:30,576 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:52:30,583 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:52:30,584 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:54:11,907 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:54:30,210 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:54:30,220 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:54:30,229 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:54:30,230 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:55:52,235 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:55:55,423 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:55:55,432 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:55:55,440 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:55:55,441 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:56:00,574 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:56:03,657 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:56:03,667 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:56:03,677 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:56:03,678 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:56:38,213 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:56:41,627 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:56:41,637 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:56:41,644 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:56:41,644 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:57:44,224 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:57:49,013 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:57:49,023 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:57:49,031 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:57:49,031 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:57:51,373 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:57:51,382 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:57:51,389 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:57:51,391 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:57:58,429 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:58:02,583 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:02,593 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:02,601 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:02,602 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:04,924 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:04,933 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:04,941 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:04,943 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:07,288 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:07,297 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:07,305 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:07,305 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:27,728 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:58:31,812 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:31,824 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:31,836 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:31,838 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:34,613 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:34,622 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:34,628 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:34,629 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:51,029 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 13:58:54,231 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 13:58:54,241 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 13:58:54,251 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 13:58:54,251 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 13:58:54,655 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:09:30,435 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:09:30,444 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:09:30,451 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:09:30,452 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:09:37,790 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:09:37,798 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:09:37,817 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:09:37,819 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:09:37,819 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:09:37,831 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: can't adapt type 'UUID'
+2025-09-19 14:10:20,046 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:10:24,406 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:10:24,426 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:10:24,441 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:10:24,452 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:10:27,579 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:10:27,588 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:10:27,596 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:10:27,599 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:10:27,763 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:10:27,772 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:10:27,792 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:10:27,793 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:10:27,794 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:10:27,809 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: column "doc_id" of relation "documents" does not exist
+LINE 1: INSERT INTO documents (doc_id, doc_path, chunk_index, conten...
+                               ^
+
+2025-09-19 14:10:35,431 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:11:03,745 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:11:03,753 - WARNING - db.manager - manager.py:68 - ResettingdDatabase.
+2025-09-19 14:11:03,759 - INFO - db.manager - manager.py:70 - Resetting database completed.
+2025-09-19 14:11:03,768 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:11:03,778 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:11:03,780 - INFO - api.app - app.py:28 - Database initialized
+2025-09-19 14:11:23,458 - WARNING - api.app - app.py:35 - Application Shutting down
+2025-09-19 14:11:26,737 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:11:26,745 - WARNING - db.manager - manager.py:68 - Resetting Database.
+2025-09-19 14:11:26,747 - INFO - db.manager - manager.py:70 - Resetting database completed.
+2025-09-19 14:11:26,756 - INFO - db.manager - manager.py:41 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:11:26,764 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:11:26,764 - INFO - api.app - app.py:28 - Database initialized
+2025-09-19 14:11:31,493 - WARNING - api.app - app.py:35 - Application Shutting down
+2025-09-19 14:11:34,604 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:11:34,612 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:11:34,614 - INFO - db.manager - manager.py:69 - Resetting database completed.
+2025-09-19 14:11:34,624 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:11:34,633 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:11:34,634 - INFO - api.app - app.py:28 - Database initialized
+2025-09-19 14:11:46,940 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:11:46,948 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:11:46,970 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:11:46,973 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:11:46,974 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:11:46,989 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: column "doc_id" of relation "documents" does not exist
+LINE 1: INSERT INTO documents (doc_id, doc_path, chunk_index, conten...
+                               ^
+
+2025-09-19 14:12:08,604 - WARNING - api.app - app.py:35 - Application Shutting down
+2025-09-19 14:12:13,499 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:12:13,510 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:12:13,520 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:12:13,521 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:12:18,518 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:12:18,532 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:12:18,551 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:12:18,555 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:12:18,555 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:12:18,569 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: column "doc_id" of relation "documents" does not exist
+LINE 1: INSERT INTO documents (doc_id, doc_path, chunk_index, conten...
+                               ^
+
+2025-09-19 14:13:50,470 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:13:50,487 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:13:53,295 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:13:53,304 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:13:53,342 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:13:53,343 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:14:20,739 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:14:20,754 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:14:20,779 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:14:20,781 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:14:20,782 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:14:20,800 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: invalid input syntax for type vector: "-"
+LINE 8: ●​ Class: Ranger​','-'),('248ff019-dc82-4222-8671-1df53a78aa...
+                           ^
+DETAIL:  Vector contents must start with "[".
+
+2025-09-19 14:16:54,842 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:16:54,851 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:16:54,853 - INFO - db.manager - manager.py:69 - Resetting database completed.
+2025-09-19 14:16:58,197 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:16:58,206 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:16:58,217 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:16:58,217 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:17:02,736 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:17:02,747 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:17:02,749 - INFO - db.manager - manager.py:69 - Resetting database completed.
+2025-09-19 14:17:06,360 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:17:06,369 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:17:06,377 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:17:06,378 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:17:14,904 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:17:14,912 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:17:14,931 - INFO - core.process_document - process_document.py:63 - Number of pages in document [1.pdf], 2
+2025-09-19 14:17:14,933 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:17:14,934 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:17:15,312 - DEBUG - core.process_document - process_document.py:46 - Error while inserting embeddings for [1.pdf] in DB: ROW expressions can have at most 1664 entries
+LINE 8: ●​ Class: Ranger​',( -0.0047743097,  -0.010098059,  -0.00375...
+                           ^
+
+2025-09-19 14:17:21,399 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:17:21,419 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:17:21,422 - INFO - db.manager - manager.py:69 - Resetting database completed.
+2025-09-19 14:17:43,277 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:17:43,286 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:17:43,294 - INFO - db.manager - manager.py:59 - Table 'documents' created or already exists.
+2025-09-19 14:17:43,294 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:17:45,048 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:17:45,059 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:17:45,080 - INFO - core.process_document - process_document.py:60 - Number of pages in document [1.pdf], 2
+2025-09-19 14:17:45,082 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:17:45,083 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:17:49,040 - DEBUG - core.process_document - process_document.py:43 - Error while inserting embeddings for [1.pdf] in DB: duplicate key value violates unique constraint "documents_pkey"
+DETAIL:  Key (doc_id)=(a5018578-de29-4e31-bd2c-3a98ea80c306) already exists.
+
+2025-09-19 14:17:57,667 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:17:57,678 - WARNING - db.manager - manager.py:67 - Resetting Database.
+2025-09-19 14:17:57,680 - INFO - db.manager - manager.py:69 - Resetting database completed.
+2025-09-19 14:18:35,263 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:18:35,272 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:18:35,283 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:18:35,283 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:18:40,024 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:18:40,033 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:18:40,051 - INFO - core.process_document - process_document.py:60 - Number of pages in document [1.pdf], 2
+2025-09-19 14:18:40,053 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:18:40,053 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:18:43,749 - DEBUG - core.process_document - process_document.py:43 - Error while inserting embeddings for [1.pdf] in DB: duplicate key value violates unique constraint "documents_pkey"
+DETAIL:  Key (doc_id)=(a9cd5ad9-6a24-4f44-a4fa-d60f81abaf4b) already exists.
+
+2025-09-19 14:18:51,670 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:18:51,682 - WARNING - db.manager - manager.py:68 - Resetting Database.
+2025-09-19 14:18:51,685 - INFO - db.manager - manager.py:70 - Resetting database completed.
+2025-09-19 14:19:14,010 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:19:14,021 - INFO - db.manager - manager.py:40 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:19:14,048 - INFO - db.manager - manager.py:60 - Table 'documents' created or already exists.
+2025-09-19 14:19:14,048 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:19:19,194 - INFO - api.upload.routes - routes.py:34 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:19:19,202 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:19:19,218 - INFO - core.process_document - process_document.py:60 - Number of pages in document [1.pdf], 2
+2025-09-19 14:19:19,220 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:19:19,220 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:19:22,788 - INFO - db.manager - manager.py:87 - 18 chunks inserted, Name: uploads/1.pdf, ID: 8eda4a88-01d3-4719-9de2-d1c68e3351fc
+2025-09-19 14:19:38,228 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:19:38,240 - WARNING - db.manager - manager.py:68 - Resetting Database.
+2025-09-19 14:19:38,249 - INFO - db.manager - manager.py:70 - Resetting database completed.
+2025-09-19 14:35:24,363 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:35:24,374 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:35:24,381 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:35:24,381 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:35:28,114 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:35:28,123 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:35:28,143 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 14:35:28,145 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:35:28,145 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:35:37,236 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:35:50,949 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:35:50,958 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:35:50,966 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:35:50,966 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:35:54,825 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:35:54,833 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:35:54,850 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 14:35:54,853 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:35:54,854 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:35:58,483 - DEBUG - core.process_document - process_document.py:40 - Error while inserting embeddings for [1.pdf] in DB: column "session_id" of relation "documents" does not exist
+LINE 1: INSERT INTO documents (session_id, doc_path, chunk_index, ch...
+                               ^
+
+2025-09-19 14:36:55,238 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:37:00,250 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:37:00,267 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:37:00,286 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:37:00,287 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:37:04,694 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 14:37:04,703 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 14:37:04,725 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 14:37:04,727 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 14:37:04,728 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 14:37:08,411 - INFO - db.manager - manager.py:105 - 18 chunks inserted, Name: uploads/1.pdf, ID: 8300555f-080f-489a-aa0d-80ab9e77765c
+2025-09-19 14:37:49,325 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 14:37:49,326 - INFO - core.utils - utils.py:38 - Total chunks formed: 1
+2025-09-19 14:37:49,326 - INFO - core.utils - utils.py:39 - Chunks:
+['Special Skills']
+---
+2025-09-19 14:37:49,986 - DEBUG - core.process_prompt - process_prompt.py:43 - Error while doing semantic search for [Special Skills] in DB: operator does not exist: vector <=> numeric[]
+LINE 2: ...ssion_id, doc_path, chunk_index, chunk, embedding <=> ARRAY[...
+                                                             ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+2025-09-19 14:38:49,157 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:38:52,401 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:38:52,411 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:38:52,419 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:38:52,419 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:39:09,182 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:39:12,863 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:39:12,872 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:39:12,879 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:39:12,880 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:39:23,934 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:39:28,057 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:39:28,065 - INFO - db.manager - manager.py:48 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:39:28,072 - INFO - db.manager - manager.py:71 - Table 'documents' created or already exists.
+2025-09-19 14:39:28,072 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:39:50,139 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 14:39:50,140 - INFO - core.utils - utils.py:38 - Total chunks formed: 1
+2025-09-19 14:39:50,140 - INFO - core.utils - utils.py:39 - Chunks:
+['Special Skills']
+---
+2025-09-19 14:39:52,157 - DEBUG - core.process_prompt - process_prompt.py:43 - Error while doing semantic search for [Special Skills] in DB: expected Connection or AsyncConnection, got connection
+2025-09-19 14:40:35,257 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:40:39,269 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:40:39,281 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:40:39,290 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:40:39,291 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:40:42,313 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:40:42,323 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:40:42,332 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:40:42,333 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:40:47,053 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:40:51,147 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:40:51,156 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:40:51,163 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:40:51,164 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:40:54,857 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:40:54,866 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:40:54,872 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:40:54,872 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:02,714 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:41:06,347 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:06,356 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:06,365 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:06,365 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:13,413 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:13,421 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:13,428 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:13,428 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:16,858 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:16,868 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:16,876 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:16,877 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:20,225 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:20,235 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:20,243 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:20,243 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:23,189 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:23,198 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:23,205 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:23,205 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:26,073 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:26,081 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:26,089 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:26,089 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:27,801 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:41:31,520 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:31,529 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:31,537 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:31,537 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:34,806 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:34,815 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:34,824 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:34,824 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:37,404 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:37,413 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:37,420 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:37,421 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:41:40,074 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:41:40,083 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:41:40,093 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:41:40,094 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:42:10,133 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 14:42:10,136 - INFO - core.utils - utils.py:38 - Total chunks formed: 1
+2025-09-19 14:42:10,136 - INFO - core.utils - utils.py:39 - Chunks:
+['Special Skills']
+---
+2025-09-19 14:42:12,368 - DEBUG - core.process_prompt - process_prompt.py:43 - Error while doing semantic search for [Special Skills] in DB: array must be 1-D
+
+2025-09-19 14:43:37,708 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:43:41,596 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:43:41,629 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:43:41,639 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:43:41,641 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:43:44,961 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:43:48,558 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:43:48,574 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:43:48,583 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:43:48,588 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:43:56,922 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:44:00,337 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:44:00,347 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:44:00,357 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:44:00,360 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:45:12,007 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:45:15,624 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:45:15,634 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:45:15,642 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:45:15,643 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:45:28,001 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:45:32,406 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:45:32,419 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:45:32,430 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 14:45:32,430 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:55:03,288 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:55:22,546 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:55:22,546 - ERROR - api.app - app.py:29 - Error while initializing database: name 'psycopg2' is not defined
+2025-09-19 14:55:25,552 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:55:25,552 - ERROR - api.app - app.py:29 - Error while initializing database: name 'psycopg2' is not defined
+2025-09-19 14:55:28,566 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:55:32,557 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:55:32,575 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:55:32,585 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 14:55:32,585 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:55:49,112 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:58:44,922 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:58:44,933 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:58:44,940 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 14:58:44,941 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:58:47,515 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:58:47,527 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:58:47,535 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 14:58:47,535 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:59:47,976 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:59:50,746 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:59:50,757 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:59:50,765 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 14:59:50,766 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 14:59:55,196 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 14:59:58,309 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 14:59:58,322 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 14:59:58,331 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 14:59:58,331 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:00:45,340 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:01:19,839 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:01:19,854 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:01:19,863 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:01:19,864 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:01:20,871 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:01:23,785 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:01:23,797 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:01:23,806 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:01:23,806 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:01:25,516 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:01:28,445 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:01:28,456 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:01:28,464 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:01:28,464 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:01:29,067 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:01:32,344 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:01:32,366 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:01:32,381 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:01:32,381 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:01:58,089 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:02:02,221 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:02,232 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:02,239 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:02:02,240 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:05,832 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:05,847 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:05,857 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:02:05,857 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:10,598 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:10,613 - INFO - db.manager - manager.py:46 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:10,624 - INFO - db.manager - manager.py:69 - Table 'documents' created or already exists.
+2025-09-19 15:02:10,626 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:14,424 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:14,435 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:14,443 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:02:14,443 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:17,718 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:17,730 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:17,737 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:02:17,737 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:24,667 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:02:28,855 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:28,868 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:28,876 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:02:28,876 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:37,433 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:02:40,690 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:40,702 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:40,709 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:02:40,709 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:02:45,942 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:02:48,984 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:02:48,997 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:02:49,007 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:02:49,007 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:03:32,328 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:03:36,233 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:03:36,244 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:03:36,252 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:03:36,252 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:03:39,035 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:03:39,046 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:03:39,053 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:03:39,055 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:04:15,466 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 15:04:27,223 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 15:05:49,860 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 15:07:08,298 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:07:11,557 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:07:11,570 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:07:11,584 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:07:11,584 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:07:15,099 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:07:18,052 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:07:18,065 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:07:18,076 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:07:18,076 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:07:21,167 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:07:21,185 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:07:21,203 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:07:21,204 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:07:40,990 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:07:43,862 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:07:43,874 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:07:43,881 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:07:43,882 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:07:44,788 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:09:54,428 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:09:54,440 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:09:54,460 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:09:54,461 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:10:27,621 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 15:10:27,634 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 15:10:27,657 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 15:10:27,659 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 15:10:27,660 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 15:10:31,321 - INFO - db.manager - manager.py:104 - 18 chunks inserted, Name: uploads/1.pdf, ID: 2b66a401-868c-4695-b19f-547ef280b040
+2025-09-19 15:10:48,546 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt Special Skills
+2025-09-19 15:11:18,668 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:11:26,778 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:11:26,789 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:11:26,797 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:11:26,798 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:11:29,628 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:11:29,640 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:11:29,650 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:11:29,650 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:11:53,361 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:11:58,363 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:11:58,374 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:11:58,385 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:11:58,385 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:12:00,984 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:12:00,995 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:12:01,006 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:12:01,007 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:12:07,960 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:12:31,292 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:12:31,304 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:12:31,324 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:12:31,326 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:12:53,485 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 15:12:53,497 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 15:12:53,525 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 15:12:53,526 - INFO - core.utils - utils.py:37 - Total chunks formed: 18
+2025-09-19 15:12:53,527 - INFO - core.utils - utils.py:38 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 15:15:13,162 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:15:34,169 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:15:34,181 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:15:34,223 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:15:34,224 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:15:52,554 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 15:15:52,563 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 15:15:52,581 - INFO - core.process_document - process_document.py:57 - Number of pages in document [1.pdf], 2
+2025-09-19 15:15:52,582 - INFO - core.utils - utils.py:37 - Total chunks formed: 18
+2025-09-19 15:15:52,583 - INFO - core.utils - utils.py:38 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 15:15:56,361 - INFO - db.manager - manager.py:104 - 18 chunks inserted, Name: uploads/1.pdf, ID: 25143522-1a49-4687-a447-4bea1ca34db2
+2025-09-19 15:16:14,727 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt "Special Skills"
+2025-09-19 15:24:19,618 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:24:23,103 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:24:23,119 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:24:23,128 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:24:23,129 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:24:32,767 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:24:36,099 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:24:36,111 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:24:36,121 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:24:36,121 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:24:44,849 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:24:48,864 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:24:48,880 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:24:48,890 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:24:48,892 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:24:55,225 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:25:00,900 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:00,915 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:00,927 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:00,930 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:06,580 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:06,599 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:06,611 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:06,612 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:10,903 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:10,932 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:10,961 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:10,961 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:16,645 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:16,666 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:16,682 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:16,686 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:26,605 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:26,628 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:26,652 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:26,657 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:32,390 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:32,405 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:32,416 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:32,417 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:36,156 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:36,175 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:36,193 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:36,197 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:36,701 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:25:39,818 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:39,830 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:39,840 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:39,841 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:46,766 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:25:50,090 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:25:50,101 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:25:50,109 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:25:50,110 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:25:57,028 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:26:01,115 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:01,126 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:01,136 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:01,136 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:04,274 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:04,292 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:04,305 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:04,305 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:06,114 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:26:10,673 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:10,685 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:10,696 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:10,697 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:13,995 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:14,008 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:14,018 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:14,019 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:17,500 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:17,512 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:17,521 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:17,522 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:20,907 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:26:20,927 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:26:20,943 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:26:20,944 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:26:27,998 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt "Special Skills"
+2025-09-19 15:26:30,043 - INFO - core.process_prompt - process_prompt.py:36 - Results from semantic search for prompt "Special Skills": [{'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.24859425442286742}, {'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 16, 'chunk': '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', 'distance': 0.2536848338654525}, {'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 2, 'chunk': 'and arrow. He is stealthy, quick,', 'distance': 0.3903450602498676}]
+2025-09-19 15:28:06,285 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:28:28,635 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:28:28,647 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:28:28,657 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:28:28,658 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:28:30,208 - INFO - core.process_prompt - process_prompt.py:24 - Processing provided prompt "Special Skills"
+2025-09-19 15:28:32,104 - INFO - core.process_prompt - process_prompt.py:36 - Results from semantic search for prompt "Special Skills": [{'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.24859425442286742}, {'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 16, 'chunk': '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', 'distance': 0.2536848338654525}, {'session_id': UUID('25143522-1a49-4687-a447-4bea1ca34db2'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 2, 'chunk': 'and arrow. He is stealthy, quick,', 'distance': 0.3903450602498676}]
+2025-09-19 15:28:48,764 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:35:09,882 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:35:09,895 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:35:09,919 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:35:09,920 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:35:14,270 - INFO - api.upload.routes - routes.py:36 - Uploaded file saved in uploads/1.pdf
+2025-09-19 15:35:14,283 - INFO - core.process_document - process_document.py:24 - Processing provided document 1.pdf
+2025-09-19 15:35:14,318 - INFO - core.process_document - process_document.py:52 - Number of pages in document [1.pdf], 2
+2025-09-19 15:35:14,323 - INFO - core.utils - utils.py:38 - Total chunks formed: 18
+2025-09-19 15:35:14,323 - INFO - core.utils - utils.py:39 - Chunks:
+['Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'and arrow. He is stealthy, quick,', 'and values nature above all. Often seen patrolling the forest edges, he protects his homeland from', 'his homeland from intruders.\u200b', '●\u200b Personality Traits: Curious, cautious, loyal to friends.\u200b', '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', '●\u200b Inventory Highlights: Elven longbow, quiver of arrows, cloak of shadows, herbal pouch.\u200b', 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'Player 2:', 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', '●\u200b Race: Dwarf\u200b\n \n●\u200b Class: Warrior\u200b', '●\u200b Background: A veteran of the Iron Mountains, Morgath has faced countless battles. Fierce and', 'battles. Fierce and steadfast, he', 'fights to protect his clan and reclaim lost treasures.\u200b', '●\u200b Personality Traits: Brave, stubborn, honorable.\u200b', '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', '●\u200b Inventory Highlights: War axe, steel shield, dwarven chainmail, torch kit.\u200b']
+---
+2025-09-19 15:35:16,723 - INFO - db.manager - manager.py:104 - 18 chunks inserted, Name: uploads/1.pdf, ID: 3d438380-7379-485a-8abb-7b7cf48e1ce0
+2025-09-19 15:35:33,739 - INFO - core.process_prompt - process_prompt.py:23 - Processing provided prompt ["Special Skills"] for session_id [session_id]
+2025-09-19 15:35:34,441 - INFO - core.process_prompt - process_prompt.py:31 - Results from semantic search for prompt ["Special Skills"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 16, 'chunk': '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', 'distance': 0.2610675096511841}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.2611640691757202}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 2, 'chunk': 'and arrow. He is stealthy, quick,', 'distance': 0.3346604904330057}]
+2025-09-19 15:36:19,872 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:36:23,136 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:36:23,147 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:36:23,156 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:36:23,156 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:36:36,122 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:36:41,018 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:36:41,034 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:36:41,044 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:36:41,045 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:36:50,702 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:36:50,713 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:36:50,722 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:36:50,722 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:36:54,134 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:36:58,532 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:36:58,552 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:36:58,565 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:36:58,566 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:37:01,694 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:37:01,706 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:37:01,714 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:37:01,715 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:45:19,055 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:45:48,663 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:45:48,678 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:45:48,688 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:45:48,688 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:45:51,304 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:46:33,400 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:46:33,411 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:46:33,419 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:46:33,419 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:46:36,445 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:46:36,456 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:46:36,464 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:46:36,464 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:46:48,096 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:46:48,107 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:46:48,115 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:46:48,115 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:46:50,811 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:46:50,822 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:46:50,829 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:46:50,830 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:46:54,580 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:46:54,602 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:46:54,617 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:46:54,620 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:02,300 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:02,311 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:02,321 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:02,321 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:05,469 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:05,487 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:05,498 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:05,502 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:09,152 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:09,163 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:09,170 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:09,170 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:33,830 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:33,841 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:33,849 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:33,849 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:36,727 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:36,740 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:36,747 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:36,748 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:38,456 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:47:41,453 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:41,464 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:41,471 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:41,472 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:44,437 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:44,453 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:44,470 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:44,470 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:47,991 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:48,004 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:48,013 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:48,013 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:50,714 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:47:50,727 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:47:50,734 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:47:50,735 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:47:54,046 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:48:03,952 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:03,963 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:03,970 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:03,971 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:06,657 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:06,668 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:06,676 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:06,676 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:09,894 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:09,905 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:09,913 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:09,914 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:18,753 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:48:21,869 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:21,881 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:21,889 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:21,891 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:24,876 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:24,888 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:24,896 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:24,896 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:40,956 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:48:43,885 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:43,897 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:43,905 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:43,905 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:46,618 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:48:49,844 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:49,855 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:49,863 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:49,863 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:50,867 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:48:54,641 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:54,653 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:54,660 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:54,660 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:48:58,165 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:48:58,180 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:48:58,191 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:48:58,191 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:01,139 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:49:01,150 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:49:01,158 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:49:01,158 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:04,597 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:49:04,609 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:49:04,617 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:49:04,617 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:05,221 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:49:08,501 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:49:08,518 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:49:08,534 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:49:08,535 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:12,061 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:49:12,074 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:49:12,083 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:49:12,083 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:30,760 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:49:33,881 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:49:33,892 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:49:33,900 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:49:33,900 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:49:35,006 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:50:35,657 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:50:35,668 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:50:35,676 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:50:35,677 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:50:39,064 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:50:39,075 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:50:39,082 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:50:39,083 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:50:40,990 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:50:44,010 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:50:44,023 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:50:44,031 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:50:44,031 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:50:47,348 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:50:47,361 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:50:47,369 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:50:47,369 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:50:49,577 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:50:52,580 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:50:52,593 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:50:52,602 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:50:52,603 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:50:55,314 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:51:05,522 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:05,539 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:05,550 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:05,551 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:13,825 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:13,837 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:13,844 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:13,845 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:16,835 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:16,848 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:16,855 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:16,856 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:19,594 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:19,607 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:19,616 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:19,617 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:22,573 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:22,584 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:22,591 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:22,591 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:25,707 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:51:29,181 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:29,194 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:29,203 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:29,204 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:32,399 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:32,411 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:32,419 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:32,419 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:35,627 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:51:35,642 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:51:35,652 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:51:35,652 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:51:44,886 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:56:18,468 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:56:18,481 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:56:18,489 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:56:18,489 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:56:26,418 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:56:29,712 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:56:29,723 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:56:29,731 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:56:29,732 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:56:46,677 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:57:34,507 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:57:34,518 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:57:34,527 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:57:34,527 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:57:37,300 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:57:37,311 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:57:37,319 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:57:37,319 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:57:41,632 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:57:44,738 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:57:44,755 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:57:44,767 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:57:44,768 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:57:45,472 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:57:48,368 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:57:48,379 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:57:48,387 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:57:48,388 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:57:53,806 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:57:56,671 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:57:56,682 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:57:56,691 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:57:56,691 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:01,807 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:58:05,797 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:05,817 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:05,832 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:05,835 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:10,197 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:10,214 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:10,228 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:10,230 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:13,888 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:13,900 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:13,907 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:13,907 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:16,815 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:16,827 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:16,834 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:16,834 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:22,151 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:58:25,785 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:25,797 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:25,804 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:25,804 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:29,023 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:29,034 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:29,042 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:29,042 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:39,691 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:58:42,900 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:42,912 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:42,921 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:42,921 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:46,781 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:46,806 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:46,826 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:46,826 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:49,765 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:49,776 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:49,784 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:49,785 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:53,163 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:53,181 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:53,192 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:53,192 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:54,300 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:58:57,826 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:58:57,842 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:58:57,856 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:58:57,858 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:58:58,663 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:02,682 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:02,704 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:02,724 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:02,724 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:07,057 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:07,079 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:07,090 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:07,091 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:09,301 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:12,485 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:12,499 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:12,511 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:12,513 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:12,816 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:16,445 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:16,462 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:16,477 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:16,480 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:17,291 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:20,418 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:20,430 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:20,438 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:20,438 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:23,655 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:26,652 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:26,665 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:26,677 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:26,677 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:32,496 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:35,582 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:35,593 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:35,602 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:35,604 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:47,938 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:51,168 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:51,186 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:51,203 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:51,204 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:51,814 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 15:59:55,362 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:55,374 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:55,381 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:55,382 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 15:59:58,608 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 15:59:58,620 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 15:59:58,628 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 15:59:58,628 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:02,194 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:02,224 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:02,237 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:02,240 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:03,444 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:00:07,021 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:07,033 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:07,043 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:07,043 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:13,046 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:13,065 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:13,079 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:13,083 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:18,715 - INFO - core.process_prompt - process_prompt.py:23 - Processing provided prompt ["Special Skills"] for session_id [session_id]
+2025-09-19 16:00:20,751 - INFO - core.process_prompt - process_prompt.py:31 - Results from semantic search for prompt ["Special Skills"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 16, 'chunk': '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', 'distance': 0.2610675096511841}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.2611640691757202}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 2, 'chunk': 'and arrow. He is stealthy, quick,', 'distance': 0.3346604904330057}]
+2025-09-19 16:00:20,752 - DEBUG - core.process_prompt - process_prompt.py:39 - Error while communicating to LLM for prompt ["Special Skills"] with additional provided context: 47 validation errors for _GenerateContentParameters
+contents.Content
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.str
+  Input should be a valid string [type=string_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.File
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.Part
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[str,is-instance[Image],File,Part]].0.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].0.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].0.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].1.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].1.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.str
+  Input should be a valid string [type=string_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].2.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].2.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value="You are an assistant ans... present in the chunks.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value='Document context:\nChunk...He is stealthy, quick,"', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value='Special Skills', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.str
+  Input should be a valid string [type=string_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-09-19 16:00:29,105 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:00:33,939 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:33,951 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:33,961 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:33,961 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:37,034 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:37,049 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:37,058 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:37,059 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:00:39,947 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:00:39,959 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:00:39,967 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:00:39,967 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:16,300 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:03:19,961 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:03:19,977 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:03:19,988 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:03:19,989 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:23,463 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:03:23,485 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:03:23,497 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:03:23,501 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:23,707 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:03:27,614 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:03:27,632 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:03:27,646 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:03:27,646 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:30,676 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:03:30,692 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:03:30,701 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:03:30,702 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:36,079 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:03:36,097 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:03:36,109 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:03:36,110 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:03:40,486 - INFO - core.process_prompt - process_prompt.py:75 - Processing provided prompt ["Special Skills"] for session_id [session_id]
+2025-09-19 16:03:42,687 - INFO - core.process_prompt - process_prompt.py:83 - Results from semantic search for prompt ["Special Skills"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 16, 'chunk': '●\u200b Special Skills: Axe mastery, smithing, mountain survival.\u200b', 'distance': 0.2610675096511841}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.2611640691757202}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 2, 'chunk': 'and arrow. He is stealthy, quick,', 'distance': 0.3346604904330057}]
+2025-09-19 16:03:42,689 - DEBUG - core.process_prompt - process_prompt.py:92 - Error while communicating to LLM for prompt ["Special Skills"] with additional provided context: 47 validation errors for _GenerateContentParameters
+contents.Content
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.str
+  Input should be a valid string [type=string_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.File
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.Part
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=[{'role': 'system', 'part...s': ['Special Skills']}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[str,is-instance[Image],File,Part]].0.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].0.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].0.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].0.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].1.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].1.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].1.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.str
+  Input should be a valid string [type=string_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[str,is-instance[Image],File,Part]].2.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[str,is-instance[Image],File,Part]].2.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[str,is-instance[Image],File,Part]].2.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value="You are an assistant ans... present in the chunks.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=["You are an assistant an...present in the chunks."], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].0.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'system', 'parts...resent in the chunks."]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value='Document context:\nChunk...He is stealthy, quick,"', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.str
+  Input should be a valid string [type=string_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='system', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Document context:\nChun...e is stealthy, quick,"'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].1.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'system', 'parts... is stealthy, quick,"']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Content.parts.0
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value='Special Skills', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_attributes_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.str
+  Input should be a valid string [type=string_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.is-instance[Image]
+  Input should be an instance of Image [type=is_instance_of, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.File.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.File.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Part.role
+  Extra inputs are not permitted [type=extra_forbidden, input_value='user', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.Part.parts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=['Special Skills'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+contents.list[union[Content,str,is-instance[Image],File,Part,list[union[str,is-instance[Image],File,Part]]]].2.list[union[str,is-instance[Image],File,Part]]
+  Input should be a valid list [type=list_type, input_value={'role': 'user', 'parts': ['Special Skills']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-09-19 16:04:00,746 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:04:04,346 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:04:04,360 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:04:04,373 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:04:04,374 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:09,281 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:07:14,466 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:14,482 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:14,494 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:14,494 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:19,719 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:19,737 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:19,749 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:19,750 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:23,279 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:23,299 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:23,313 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:23,314 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:27,677 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:27,700 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:27,713 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:27,715 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:41,903 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:41,919 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:41,929 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:41,930 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:07:48,756 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:07:52,493 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:07:52,512 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:07:52,524 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:07:52,526 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:08:55,447 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:21:23,262 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:21:23,278 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:21:23,290 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:21:23,291 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:21:52,163 - INFO - core.process_prompt - process_prompt.py:94 - Processing provided prompt ["who is Kaelin?"] for session_id [3d438380-7379-485a-8abb-7b7cf48e1ce0]
+2025-09-19 16:21:54,329 - INFO - core.process_prompt - process_prompt.py:108 - Results from semantic search for prompt ["who is Kaelin?"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 1, 'chunk': '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'distance': 0.2204033368705539}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 0, 'chunk': 'Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', 'distance': 0.2850517120864894}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.3534588988472298}]
+2025-09-19 16:21:54,329 - DEBUG - core.process_prompt - process_prompt.py:149 - 
+                    You are an assistant answering questions with retrieved context.
+
+                    Rules:
+
+                    1. First, answer using ONLY the provided document chunks. Quote directly.
+
+                    2. Always include inline citations in this format: (source: {doc_path}, chunk: {chunk_index}).
+
+                    3. After citing the documents, add a second section: 'But I think this is true: ...', where you can use outside knowledge.
+
+                    4. Never invent document content that isn't present in the chunks.
+            
+2025-09-19 16:21:54,329 - DEBUG - core.process_prompt - process_prompt.py:150 - 
+            ADDITIONAL CONTEXT: Chunk 1 from uploads/1.pdf: "●​ Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is"
+Chunk 0 from uploads/1.pdf: "Player 1: 
+●​ Character Name: Kaelin Stormrider​
+ 
+●​ Age: 27​
+ 
+●​ Race: Elf​
+ 
+●​ Class: Ranger​"
+Chunk 6 from uploads/1.pdf: "●​ Special Skills: Archery, tracking, herbalism.​"
+            QUESTION: who is Kaelin?
+        
+2025-09-19 16:21:56,601 - INFO - core.process_prompt - process_prompt.py:118 - LLM's answer for ["who is Kaelin?"]: Kaelin Stormrider is a 27-year-old Elf Ranger. He was raised in the Whispering Woods and is skilled with a bow and arrow. (source: uploads/1.pdf, chunk: 0), (source: uploads/1.pdf, chunk: 1). His special skills include archery, tracking, and herbalism. (source: uploads/1.pdf, chunk: 6).
+
+But I think this is true:
+Kaelin is a common fantasy character name, and "Stormrider" suggests a connection to nature or a powerful lineage. Elves in fantasy are often depicted as skilled archers and trackers, and a Ranger class typically combines wilderness survival skills with combat abilities.
+2025-09-19 16:22:56,191 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:23:01,062 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:23:01,079 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:23:01,092 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:23:01,093 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:27:03,650 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:27:03,666 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:27:03,681 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:27:03,682 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:27:06,328 - INFO - core.process_prompt - process_prompt.py:94 - Processing provided prompt ["who is Kaelin?"] for session_id [3d438380-7379-485a-8abb-7b7cf48e1ce0]
+2025-09-19 16:27:08,538 - DEBUG - core.process_prompt - process_prompt.py:108 - Results from semantic search for prompt ["who is Kaelin?"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 1, 'chunk': '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'distance': 0.2204033368705539}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 0, 'chunk': 'Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', 'distance': 0.2850517120864894}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.3534588988472298}]
+2025-09-19 16:27:10,766 - INFO - core.process_prompt - process_prompt.py:118 - LLM's answer for ["who is Kaelin?"]: Kaelin Stormrider is a 27-year-old Elf Ranger. He was raised in the Whispering Woods and is skilled with a bow and arrow, as well as archery, tracking, and herbalism. Source file: uploads/1.pdf Source Chunk: 0. Source file: uploads/1.pdf Source Chunk: 1. Source file: uploads/1.pdf Source Chunk: 6.
+2025-09-19 16:27:55,205 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:27:58,320 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:27:58,334 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:27:58,347 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:27:58,347 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:27:59,654 - WARNING - api.app - app.py:34 - Application Shutting down
+2025-09-19 16:29:39,506 - INFO - api.app - app.py:23 - Initializing database
+2025-09-19 16:29:39,521 - INFO - db.manager - manager.py:47 - Database 'q2doc_vectordb' already exists.
+2025-09-19 16:29:39,536 - INFO - db.manager - manager.py:70 - Table 'documents' created or already exists.
+2025-09-19 16:29:39,537 - INFO - api.app - app.py:27 - Database initialized
+2025-09-19 16:29:42,880 - INFO - core.process_prompt - process_prompt.py:94 - Processing provided prompt ["who is Kaelin?"] for session_id [3d438380-7379-485a-8abb-7b7cf48e1ce0]
+2025-09-19 16:29:44,907 - DEBUG - core.process_prompt - process_prompt.py:108 - Results from semantic search for prompt ["who is Kaelin?"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 1, 'chunk': '●\u200b Background: Raised in the Whispering Woods, Kaelin is skilled with bow and arrow. He is', 'distance': 0.2204033368705539}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 0, 'chunk': 'Player 1: \n●\u200b Character Name: Kaelin Stormrider\u200b\n \n●\u200b Age: 27\u200b\n \n●\u200b Race: Elf\u200b\n \n●\u200b Class: Ranger\u200b', 'distance': 0.2850517120864894}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 6, 'chunk': '●\u200b Special Skills: Archery, tracking, herbalism.\u200b', 'distance': 0.3534588988472298}]
+2025-09-19 16:29:47,238 - INFO - core.process_prompt - process_prompt.py:118 - LLM's answer for ["who is Kaelin?"]: Kaelin Stormrider is a 27-year-old Elf Ranger. He was raised in the Whispering Woods and is skilled with a bow and arrow, with special skills including archery, tracking, and herbalism. Source file: uploads/1.pdf.
+2025-09-19 16:30:14,438 - INFO - core.process_prompt - process_prompt.py:94 - Processing provided prompt ["what is the secret game key?"] for session_id [3d438380-7379-485a-8abb-7b7cf48e1ce0]
+2025-09-19 16:30:16,442 - DEBUG - core.process_prompt - process_prompt.py:108 - Results from semantic search for prompt ["what is the secret game key?"]: [{'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 8, 'chunk': 'bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’', 'distance': 0.2163332725067839}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 9, 'chunk': 'Player 2:', 'distance': 0.3438238529686507}, {'session_id': UUID('3d438380-7379-485a-8abb-7b7cf48e1ce0'), 'doc_path': 'uploads/1.pdf', 'chunk_index': 10, 'chunk': 'Player 2: \n●\u200b Character Name: Morgath Ironfist\u200b\n \n●\u200b Age: 34\u200b\n \n●\u200b Race: Dwarf\u200b', 'distance': 0.3817236239231644}]
+2025-09-19 16:30:18,879 - INFO - core.process_prompt - process_prompt.py:118 - LLM's answer for ["what is the secret game key?"]: bb2_game_secret_key=’sk_2323_supersecretgamekey_3123’ Source file: uploads/1.pdf.
+2025-09-19 16:30:29,321 - WARNING - api.app - app.py:34 - Application Shutting down

@@ -15,5 +15,7 @@ DB_NAME = os.getenv("DB_NAME")
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = int(os.getenv("DB_PORT"))
 
-# --- API Keys ---
+# --- LLM ---
+EMBEDDING_MODEL = "gemini-embedding-001"
+CHAT_MODEL = "gemini-2.5-flash-lite"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

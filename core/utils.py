@@ -5,15 +5,15 @@ from google.genai import types
 
 # Local imports
 from core.logger import setup_logger
-from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY
+from config.config import LOG_LEVEL_DEBUG, APPLICATION_LOG_FILE, GEMINI_API_KEY, EMBEDDING_MODEL
 
 # Initialization
 logger = setup_logger(__name__, APPLICATION_LOG_FILE, LOG_LEVEL_DEBUG)
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-def get_embeddings(data_list: list[str], embedding_type: str) -> list[float]:
+def get_embeddings(data_list: list[str], embedding_type: str) -> list[list[float]]:
     result = client.models.embed_content(
-        model="gemini-embedding-001",
+        model=EMBEDDING_MODEL,
         contents=data_list,
         config=types.EmbedContentConfig(task_type=embedding_type)
     )
