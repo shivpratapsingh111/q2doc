@@ -1,6 +1,6 @@
 # Q2DOC
 
-Minimal document-QA app with a FastAPI backend and a Vite React frontend.
+Minimal document-QA app with RAG implementation built on top of FastAPI backend and a Vite React frontend.
 
 # High Level System Design
 > This was made in planning phase
