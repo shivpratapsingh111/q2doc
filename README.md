@@ -40,7 +40,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 3) Run the API:
 ```
-python app/api/app.py
+uvicorn app.api.app:app --host 0.0.0.0 --port 8000
 ```
 API defaults to http://localhost:8000
 
