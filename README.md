@@ -20,6 +20,7 @@ pip install -r requirements.txt
 cd ../../
 python3 main.py
 ```
+> NOTE: You can use `files/1.pdf` for testing purposes.
 
 ## Backend (FastAPI)
 1) Create and activate a virtualenv, then install deps:
