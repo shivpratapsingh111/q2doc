@@ -2,6 +2,11 @@
 
 Minimal document-QA app with a FastAPI backend and a Vite React frontend.
 
+# High Level System Design
+> This was made in planning phase
+
+![High Level System Design](files/image.png)
+
 ## Prerequisites
 - Python 3.10+
 - Node.js 18+
@@ -60,3 +65,11 @@ Dev server runs at http://localhost:5173
 - Upload route: `app/api/upload/routes.py`
 - Prompt route: `app/api/prompt/routes.py`
 - Frontend entry: `frontend/src/App.jsx`
+
+## TODO
+- [ ] Add multiple file upload support
+- [ ] Add better file handling
+- [ ] Add http polling
+- [ ] Add status column in DB, to know when the processing of document is completed (it takes time).
+- [ ] Better Async
+- [ ] Fix: No menu button in Mobile [frontend]
