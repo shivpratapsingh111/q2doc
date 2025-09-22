@@ -68,8 +68,7 @@ Dev server runs at http://localhost:5173
 - Frontend entry: `frontend/src/App.jsx`
 
 ## TODO
-- [ ] Add multiple file handling support
-- [ ] Add better file handling
+- [ ] Add better file handling, include multiple file support
 - [ ] Add http polling
 - [ ] Add status column in DB, to know when the processing of document is completed (it takes time).
 - [ ] Better Async
